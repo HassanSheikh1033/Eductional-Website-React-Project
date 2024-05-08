@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;1,200;1,300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.gradient {
+    background: linear-gradient(98deg, #FFF5BE 0%, #D0F7EA 97.73%);
+    width: 1920px;
+    height: 700px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.gradient::before {
+    content: "";
+    position: absolute;
+    background-image: url('./assets/Vector.png');
+    background-repeat: no-repeat;
+    width: 642.996px;
+    height: 448px;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.gradient::after {
+    content: "";
+    position: absolute;
+    background-image: url('./assets/Vector2.png');
+    background-repeat: no-repeat;
+    width: 481px;
+    height: 220px;
+    top: 0;
+    right: 0;
+    opacity: 0.4;
+    z-index: 10;
+}
+
+.gradient1 {
+    background: linear-gradient(104deg, #B5FFE7 1.83%, #FDC1C1 98.92%);
+    width: 1290px;
+    height: 324px;
+    flex-shrink: 0;
+    padding: 120px 150px;
+    padding-bottom: 45px;
+}
+
+.gradient2 {
+    background: rgb(58, 77, 180);
+    background: linear-gradient(90deg, rgba(58, 77, 180, 0.7875525210084033) 0%, rgba(253, 29, 29, 0.6306897759103641) 50%, rgba(252, 222, 69, 0.5522584033613445) 100%);
+    padding: 70px 80px;
+}
+
+.gradient3 {
+    border-radius: 20px;
+    background: linear-gradient(93deg, #FEB6B6 0%, #B7E1FF 100%);
+    width: 1294.314px;
+    height: 300px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
